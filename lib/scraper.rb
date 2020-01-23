@@ -26,8 +26,9 @@ class Scraper
         puts "  Description: #{course.description}"
       end
     end
+    binding.pry
   end
-  binding.pry
+
 end
 
 Scraper.new.get_page 
